@@ -42,6 +42,7 @@ public class ListaActivity extends AppCompatActivity {
 
         if (bundle.getString("nombre")!=null){
             listaNombreArtistas.add(bundle.getString("nombre"));
+          //  artistaList.add(new artista(12345,bundle.getString((nombre).toString(),bolaños)));
             adapter.notifyDataSetChanged();
         }
 
